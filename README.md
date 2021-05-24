@@ -23,5 +23,5 @@ Test:
 yarn run dev
 ```
 
-##### <a href="https://github.com/gabriel-cardoso-oliveira/zombie-server/blob/master/Insomnia-All_2021-05-24">ENDPOINTS</a>
+### <a href="https://github.com/gabriel-cardoso-oliveira/zombie-server/blob/master/Insomnia-All_2021-05-24">ENDPOINTS</a>
 
