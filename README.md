@@ -11,9 +11,17 @@ Install:
 
 ```
 git clone https://github.com/gabriel-cardoso-oliveira/zombie-server.git
+```
+```
 cd zombie-server/
+```
+```
 yarn install
+```
+```
 yarn knex:migrate
+```
+```
 yarn knex:seed
 ```
 
