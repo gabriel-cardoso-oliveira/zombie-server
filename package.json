@@ -1,7 +1,7 @@
 {
   "name": "zombieserver",
   "version": "1.0.0",
-  "description": "",
+  "description": "API RESTful Zombie",
   "main": "dist/src/server.js",
   "scripts": {
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
