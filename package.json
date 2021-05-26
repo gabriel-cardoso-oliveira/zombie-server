@@ -5,7 +5,8 @@
   "main": "dist/src/server.js",
   "scripts": {
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
-    "start": "tsc && node dist/src/server.js",
+    "start": "node dist/src/server.js",
+    "start:tsc": "tsc && node dist/src/server.js",
     "build": "tsc --build",
     "clean": "tsc --build --clean",
     "knex:seed": "knex --knexfile knexfile.ts seed:run",
