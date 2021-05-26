@@ -1,15 +1,16 @@
 {
-  "name": "server",
+  "name": "zombieserver",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
+    "start": "tsc && node dist/src/server.js",
     "knex:seed": "knex --knexfile knexfile.ts seed:run",
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gabriel Cardoso de Oliveira Pereira",
   "license": "ISC",
   "dependencies": {
     "celebrate": "^12.1.1",
