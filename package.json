@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
     "start": "tsc && node dist/src/server.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
     "knex:seed": "knex --knexfile knexfile.ts seed:run",
     "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
